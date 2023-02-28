@@ -2,6 +2,8 @@ import { test, expect } from "@playwright/test";
 
 test("test", async ({ page }) => {
   await page.goto("https://devis.interiale.fr/");
+
+  await expect(page).toHaveURL("https://devis.interiale.fr/");
   await page
     .getByRole("button", { name: "Tout accepter et continuer" })
     .click();
