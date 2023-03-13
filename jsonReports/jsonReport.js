@@ -1,7 +1,7 @@
 {
   "config": {
     "forbidOnly": false,
-    "fullyParallel": true,
+    "fullyParallel": false,
     "globalSetup": null,
     "globalTeardown": null,
     "globalTimeout": 0,
@@ -19,7 +19,7 @@
         "testDir": "/home/alexander/E2EPlaywrightInterial/tests",
         "testIgnore": [],
         "testMatch": [
-          "tests/devisCodegen.test.ts"
+          "**/?(*.)@(spec|test).*"
         ],
         "timeout": 30000
       },
@@ -31,7 +31,7 @@
         "testDir": "/home/alexander/E2EPlaywrightInterial/tests",
         "testIgnore": [],
         "testMatch": [
-          "tests/devisCodegen.test.ts"
+          "**/?(*.)@(spec|test).*"
         ],
         "timeout": 30000
       },
@@ -43,7 +43,7 @@
         "testDir": "/home/alexander/E2EPlaywrightInterial/tests",
         "testIgnore": [],
         "testMatch": [
-          "tests/devisCodegen.test.ts"
+          "**/?(*.)@(spec|test).*"
         ],
         "timeout": 30000
       }
@@ -81,13 +81,13 @@
   },
   "suites": [
     {
-      "title": "devisCodegen.test.ts",
-      "file": "devisCodegen.test.ts",
+      "title": "example.test.ts",
+      "file": "example.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "test",
+          "title": "Negative Scenario for login",
           "ok": true,
           "tags": [],
           "tests": [
@@ -100,22 +100,53 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 13211,
+                  "duration": 2825,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-02-28T13:39:00.764Z",
+                  "startTime": "2023-03-13T16:03:52.554Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "26ebd4030accb2088872-cf39d9783fc7338f1e06",
-          "file": "devisCodegen.test.ts",
-          "line": 3,
-          "column": 5
+          "id": "7492e6456b96468f1b9c-02e4b53d49ab322d82e0",
+          "file": "example.test.ts",
+          "line": 9,
+          "column": 6
+        },
+        {
+          "title": "Positive Scenario with logout",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 4988,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-03-13T16:03:55.594Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7492e6456b96468f1b9c-964dc5aba4347e608ad6",
+          "file": "example.test.ts",
+          "line": 17,
+          "column": 6
         }
       ]
     }
