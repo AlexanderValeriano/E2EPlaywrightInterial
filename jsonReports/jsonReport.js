@@ -81,13 +81,13 @@
   },
   "suites": [
     {
-      "title": "example.test.ts",
-      "file": "example.test.ts",
+      "title": "e2e/e2e-login.spec.ts",
+      "file": "e2e/e2e-login.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Negative Scenario for login",
+          "title": "Reset feedback form",
           "ok": true,
           "tags": [],
           "tests": [
@@ -100,25 +100,25 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2825,
+                  "duration": 4452,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-03-13T16:03:52.554Z",
+                  "startTime": "2023-03-13T16:24:28.319Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "7492e6456b96468f1b9c-02e4b53d49ab322d82e0",
-          "file": "example.test.ts",
-          "line": 9,
+          "id": "b3baf5a6cbd7a6c3718a-8f7879d61dd8389e9fad",
+          "file": "e2e/e2e-login.spec.ts",
+          "line": 8,
           "column": 6
         },
         {
-          "title": "Positive Scenario with logout",
+          "title": "Submit feedback form",
           "ok": true,
           "tags": [],
           "tests": [
@@ -131,21 +131,21 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 4988,
+                  "duration": 4460,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-03-13T16:03:55.594Z",
+                  "startTime": "2023-03-13T16:24:32.988Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "7492e6456b96468f1b9c-964dc5aba4347e608ad6",
-          "file": "example.test.ts",
-          "line": 17,
+          "id": "b3baf5a6cbd7a6c3718a-977e42d74fbe3122bb3f",
+          "file": "e2e/e2e-login.spec.ts",
+          "line": 21,
           "column": 6
         }
       ]

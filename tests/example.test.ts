@@ -6,7 +6,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 //Negative Scenario
-test.only("Negative Scenario for login", async ({ page }) => {
+test("Negative Scenario for login", async ({ page }) => {
   await page.type("#user_login", "username1");
   await page.type("#user_password", "password1");
   await page.click("text=Sign In");
@@ -14,7 +14,7 @@ test.only("Negative Scenario for login", async ({ page }) => {
   await expect(errorMessage).toBeVisible({ visible: true });
 });
 //Positive Scenario + Logout
-test.only("Positive Scenario with logout", async ({ page }) => {
+test("Positive Scenario with logout", async ({ page }) => {
   await page.type("#user_login", "username");
   await page.type("#user_password", "password");
   await page.click("text=Sign In");
