@@ -81,20 +81,20 @@
   },
   "suites": [
     {
-      "title": "e2e/e2e-filter-transactions.spec.ts",
-      "file": "e2e/e2e-filter-transactions.spec.ts",
+      "title": "e2e/e2e-payment.spec.ts",
+      "file": "e2e/e2e-payment.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Filter transactions",
-          "file": "e2e/e2e-filter-transactions.spec.ts",
+          "file": "e2e/e2e-payment.spec.ts",
           "line": 3,
           "column": 15,
           "specs": [
             {
-              "title": "Verify the results for each account",
+              "title": "Should send new payment",
               "ok": true,
               "tags": [],
               "tests": [
@@ -107,20 +107,20 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 4394,
+                      "duration": 4492,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-14T11:23:14.548Z",
+                      "startTime": "2023-03-14T14:38:53.207Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "f22f7b69255927f2eacc-17ee3d57b9c824855efd",
-              "file": "e2e/e2e-filter-transactions.spec.ts",
+              "id": "5a8f6acd2e03e52d708b-5d305333786aba68b76b",
+              "file": "e2e/e2e-payment.spec.ts",
               "line": 14,
               "column": 7
             }
