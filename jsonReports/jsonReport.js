@@ -81,72 +81,50 @@
   },
   "suites": [
     {
-      "title": "e2e/e2e-login.spec.ts",
-      "file": "e2e/e2e-login.spec.ts",
+      "title": "e2e/e2e-search.spec.ts",
+      "file": "e2e/e2e-search.spec.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "Reset feedback form",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "Search Results",
+          "file": "e2e/e2e-search.spec.ts",
+          "line": 2,
+          "column": 15,
+          "specs": [
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "chromium",
-              "results": [
+              "title": "Should Find Search Results",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 4452,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-03-13T16:24:28.319Z",
-                  "attachments": []
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 2103,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-14T10:17:15.451Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "id": "94505ed210397eb389a3-c900c731c2dc44b51c95",
+              "file": "e2e/e2e-search.spec.ts",
+              "line": 3,
+              "column": 7
             }
-          ],
-          "id": "b3baf5a6cbd7a6c3718a-8f7879d61dd8389e9fad",
-          "file": "e2e/e2e-login.spec.ts",
-          "line": 8,
-          "column": 6
-        },
-        {
-          "title": "Submit feedback form",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 4460,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-03-13T16:24:32.988Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "b3baf5a6cbd7a6c3718a-977e42d74fbe3122bb3f",
-          "file": "e2e/e2e-login.spec.ts",
-          "line": 21,
-          "column": 6
+          ]
         }
       ]
     }

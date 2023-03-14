@@ -5,7 +5,7 @@ test.beforeEach(async ({ page }) => {
   await page.click("#feedback");
 });
 
-test.only("Reset feedback form", async ({ page }) => {
+test("Reset feedback form", async ({ page }) => {
   await page.type("#name", "alexander");
   await page.type("#email", "alexander@gmail.com");
   await page.type("#subject", "some subject");
@@ -18,7 +18,7 @@ test.only("Reset feedback form", async ({ page }) => {
   await expect(commentInput).toBeEmpty();
 });
 
-test.only("Submit feedback form", async ({ page }) => {
+test("Submit feedback form", async ({ page }) => {
   await page.type("#name", "alexander");
   await page.type("#email", "alexander@gmail.com");
   await page.type("#subject", "some subject");
