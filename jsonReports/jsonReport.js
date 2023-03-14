@@ -81,20 +81,20 @@
   },
   "suites": [
     {
-      "title": "e2e/e2e-transfer-funds.spec.ts",
-      "file": "e2e/e2e-transfer-funds.spec.ts",
+      "title": "e2e/e2e-filter-transactions.spec.ts",
+      "file": "e2e/e2e-filter-transactions.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Transfer Funds and make payements",
-          "file": "e2e/e2e-transfer-funds.spec.ts",
+          "title": "Filter transactions",
+          "file": "e2e/e2e-filter-transactions.spec.ts",
           "line": 3,
           "column": 15,
           "specs": [
             {
-              "title": "Transfer Funds",
+              "title": "Verify the results for each account",
               "ok": true,
               "tags": [],
               "tests": [
@@ -107,20 +107,20 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 4817,
+                      "duration": 4394,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-14T10:57:15.049Z",
+                      "startTime": "2023-03-14T11:23:14.548Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "48fa9350f61ea56b9a35-78ea64f0c683f3929196",
-              "file": "e2e/e2e-transfer-funds.spec.ts",
+              "id": "f22f7b69255927f2eacc-17ee3d57b9c824855efd",
+              "file": "e2e/e2e-filter-transactions.spec.ts",
               "line": 14,
               "column": 7
             }
