@@ -81,20 +81,20 @@
   },
   "suites": [
     {
-      "title": "e2e/e2e-search.spec.ts",
-      "file": "e2e/e2e-search.spec.ts",
+      "title": "e2e/e2e-transfer-funds.spec.ts",
+      "file": "e2e/e2e-transfer-funds.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Search Results",
-          "file": "e2e/e2e-search.spec.ts",
-          "line": 2,
+          "title": "Transfer Funds and make payements",
+          "file": "e2e/e2e-transfer-funds.spec.ts",
+          "line": 3,
           "column": 15,
           "specs": [
             {
-              "title": "Should Find Search Results",
+              "title": "Transfer Funds",
               "ok": true,
               "tags": [],
               "tests": [
@@ -107,21 +107,21 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 2103,
+                      "duration": 4817,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-14T10:17:15.451Z",
+                      "startTime": "2023-03-14T10:57:15.049Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "94505ed210397eb389a3-c900c731c2dc44b51c95",
-              "file": "e2e/e2e-search.spec.ts",
-              "line": 3,
+              "id": "48fa9350f61ea56b9a35-78ea64f0c683f3929196",
+              "file": "e2e/e2e-transfer-funds.spec.ts",
+              "line": 14,
               "column": 7
             }
           ]
