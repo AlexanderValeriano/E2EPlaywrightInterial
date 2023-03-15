@@ -81,20 +81,20 @@
   },
   "suites": [
     {
-      "title": "e2e/pom-e2e-login.spec.ts",
-      "file": "e2e/pom-e2e-login.spec.ts",
+      "title": "e2e/e2e-search.spec.ts",
+      "file": "e2e/e2e-search.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Login Logout flow",
-          "file": "e2e/pom-e2e-login.spec.ts",
-          "line": 5,
-          "column": 24,
+          "title": "Search Results",
+          "file": "e2e/e2e-search.spec.ts",
+          "line": 3,
+          "column": 15,
           "specs": [
             {
-              "title": "POM Negative Scenario for login",
+              "title": "Should Find Search Results",
               "ok": true,
               "tags": [],
               "tests": [
@@ -107,52 +107,21 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 3129,
+                      "duration": 2308,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-15T10:56:00.111Z",
+                      "startTime": "2023-03-15T11:10:59.222Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "e454100e03453c7b8af0-7503079c3c88690cc306",
-              "file": "e2e/pom-e2e-login.spec.ts",
-              "line": 17,
-              "column": 7
-            },
-            {
-              "title": "POM Positive Scenario with logout",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 6262,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-03-15T10:56:00.111Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "e454100e03453c7b8af0-1c95a7ba9d6f88f2c763",
-              "file": "e2e/pom-e2e-login.spec.ts",
-              "line": 23,
+              "id": "94505ed210397eb389a3-c900c731c2dc44b51c95",
+              "file": "e2e/e2e-search.spec.ts",
+              "line": 4,
               "column": 7
             }
           ]
