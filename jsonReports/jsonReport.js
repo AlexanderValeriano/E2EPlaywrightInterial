@@ -90,7 +90,7 @@
         {
           "title": "Login Logout flow",
           "file": "e2e/pom-e2e-login.spec.ts",
-          "line": 4,
+          "line": 5,
           "column": 24,
           "specs": [
             {
@@ -107,12 +107,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 3034,
+                      "duration": 3129,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-15T10:39:26.754Z",
+                      "startTime": "2023-03-15T10:56:00.111Z",
                       "attachments": []
                     }
                   ],
@@ -121,7 +121,7 @@
               ],
               "id": "e454100e03453c7b8af0-7503079c3c88690cc306",
               "file": "e2e/pom-e2e-login.spec.ts",
-              "line": 14,
+              "line": 17,
               "column": 7
             },
             {
@@ -138,12 +138,12 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 6338,
+                      "duration": 6262,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-15T10:39:26.760Z",
+                      "startTime": "2023-03-15T10:56:00.111Z",
                       "attachments": []
                     }
                   ],
@@ -152,7 +152,7 @@
               ],
               "id": "e454100e03453c7b8af0-1c95a7ba9d6f88f2c763",
               "file": "e2e/pom-e2e-login.spec.ts",
-              "line": 19,
+              "line": 23,
               "column": 7
             }
           ]
