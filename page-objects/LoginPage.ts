@@ -1,4 +1,4 @@
-import { test, Locator, Page } from "@playwright/test";
+import { test, Locator, Page, expect } from "@playwright/test";
 
 export class LoginPage {
   // Define selectors
@@ -16,8 +16,19 @@ export class LoginPage {
     this.submitButton = page.locator("input[value='Sign in']");
     this.errorMessage = page.locator(".alert.alert-error");
   }
-  ////Define login page methods
+  //Define login page methods
   async visit() {
     await this.page.goto("http://zero.webappsecurity.com/index.html");
+  }
+
+  async login(username: string, password: string) {
+    await this.usernameInput.type(username);
+    await this.passwordInput.type(password);
+    await this.submitButton.click();
+  }
+  async assertErrorMessage() {
+    await expect(this.errorMessage).toContainText(
+      "Login and/or password are wrong."
+    );
   }
 }

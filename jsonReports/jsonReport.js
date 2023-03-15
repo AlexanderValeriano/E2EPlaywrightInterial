@@ -91,10 +91,10 @@
           "title": "Login Logout flow",
           "file": "e2e/pom-e2e-login.spec.ts",
           "line": 4,
-          "column": 15,
+          "column": 24,
           "specs": [
             {
-              "title": "Negative Scenario for login",
+              "title": "POM Negative Scenario for login",
               "ok": true,
               "tags": [],
               "tests": [
@@ -107,25 +107,25 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 2633,
+                      "duration": 3034,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-14T17:46:36.618Z",
+                      "startTime": "2023-03-15T10:39:26.754Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "e454100e03453c7b8af0-a9040bd8c38cd5f37939",
+              "id": "e454100e03453c7b8af0-7503079c3c88690cc306",
               "file": "e2e/pom-e2e-login.spec.ts",
-              "line": 15,
+              "line": 14,
               "column": 7
             },
             {
-              "title": "Positive Scenario with logout",
+              "title": "POM Positive Scenario with logout",
               "ok": true,
               "tags": [],
               "tests": [
@@ -136,23 +136,23 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "status": "passed",
-                      "duration": 5637,
+                      "duration": 6338,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-14T17:46:39.484Z",
+                      "startTime": "2023-03-15T10:39:26.760Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "e454100e03453c7b8af0-8784c656930f32facf2c",
+              "id": "e454100e03453c7b8af0-1c95a7ba9d6f88f2c763",
               "file": "e2e/pom-e2e-login.spec.ts",
-              "line": 23,
+              "line": 19,
               "column": 7
             }
           ]
