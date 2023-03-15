@@ -1,6 +1,7 @@
 import { expect, test } from "@playwright/test";
 import { HomePage } from "../../page-objects/HomePage";
-test.describe.only("Search Results", () => {
+import { FeedbackPage } from "../../page-objects/FeedbackPage";
+test.describe("Search Results", () => {
   test("Should Find Search Results", async ({ page }) => {
     let homePage: HomePage = new HomePage(page);
     await homePage.visit();
