@@ -16,7 +16,7 @@
         "repeatEach": 1,
         "retries": 0,
         "name": "chromium",
-        "testDir": "/home/alexander/E2EPlaywrightInterial/tests",
+        "testDir": "/home/alexander/E2EPlaywrightInterial/tests/visual",
         "testIgnore": [],
         "testMatch": [
           "**/?(*.)@(spec|test).*"
@@ -28,7 +28,7 @@
         "repeatEach": 1,
         "retries": 0,
         "name": "firefox",
-        "testDir": "/home/alexander/E2EPlaywrightInterial/tests",
+        "testDir": "/home/alexander/E2EPlaywrightInterial/tests/visual",
         "testIgnore": [],
         "testMatch": [
           "**/?(*.)@(spec|test).*"
@@ -40,7 +40,7 @@
         "repeatEach": 1,
         "retries": 0,
         "name": "webkit",
-        "testDir": "/home/alexander/E2EPlaywrightInterial/tests",
+        "testDir": "/home/alexander/E2EPlaywrightInterial/tests/visual",
         "testIgnore": [],
         "testMatch": [
           "**/?(*.)@(spec|test).*"
@@ -70,8 +70,8 @@
       "max": 5,
       "threshold": 15000
     },
-    "configFile": "/home/alexander/E2EPlaywrightInterial/playwright.config.ts",
-    "rootDir": "/home/alexander/E2EPlaywrightInterial/tests",
+    "configFile": "/home/alexander/E2EPlaywrightInterial/visual.config.ts",
+    "rootDir": "/home/alexander/E2EPlaywrightInterial/tests/visual",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -81,20 +81,20 @@
   },
   "suites": [
     {
-      "title": "e2e/pom-e2e-login.spec.ts",
-      "file": "e2e/pom-e2e-login.spec.ts",
+      "title": "visual.spec.ts",
+      "file": "visual.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Login Logout flow",
-          "file": "e2e/pom-e2e-login.spec.ts",
-          "line": 5,
-          "column": 24,
+          "title": "Visual Regression Testing Example",
+          "file": "visual.spec.ts",
+          "line": 3,
+          "column": 15,
           "specs": [
             {
-              "title": "POM Negative Scenario for login",
+              "title": "Full Page Snapshot",
               "ok": true,
               "tags": [],
               "tests": [
@@ -102,57 +102,26 @@
                   "timeout": 30000,
                   "annotations": [],
                   "expectedStatus": "passed",
-                  "projectName": "chromium",
+                  "projectName": "webkit",
                   "results": [
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 6254,
+                      "duration": 813,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-17T16:11:15.495Z",
+                      "startTime": "2023-03-17T16:44:34.946Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "e454100e03453c7b8af0-7503079c3c88690cc306",
-              "file": "e2e/pom-e2e-login.spec.ts",
-              "line": 16,
-              "column": 7
-            },
-            {
-              "title": "POM Positive Scenario with logout",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 6505,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-03-17T16:11:15.495Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "e454100e03453c7b8af0-1c95a7ba9d6f88f2c763",
-              "file": "e2e/pom-e2e-login.spec.ts",
-              "line": 23,
+              "id": "8324bb52c49185e48ff4-ca032b30f3ffd61e2f59",
+              "file": "visual.spec.ts",
+              "line": 4,
               "column": 7
             }
           ]
