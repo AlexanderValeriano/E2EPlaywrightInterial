@@ -81,20 +81,20 @@
   },
   "suites": [
     {
-      "title": "e2e/pom-e2e-payment.spec.ts",
-      "file": "e2e/pom-e2e-payment.spec.ts",
+      "title": "e2e/pom-e2e-login.spec.ts",
+      "file": "e2e/pom-e2e-login.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "New Payment",
-          "file": "e2e/pom-e2e-payment.spec.ts",
-          "line": 7,
-          "column": 15,
+          "title": "Login Logout flow",
+          "file": "e2e/pom-e2e-login.spec.ts",
+          "line": 5,
+          "column": 24,
           "specs": [
             {
-              "title": "Should send new payment",
+              "title": "POM Negative Scenario for login",
               "ok": true,
               "tags": [],
               "tests": [
@@ -107,21 +107,52 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 4625,
+                      "duration": 6254,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-17T15:35:38.167Z",
+                      "startTime": "2023-03-17T16:11:15.495Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "ee0efe0c0f5355512994-bece91585ec84d234303",
-              "file": "e2e/pom-e2e-payment.spec.ts",
-              "line": 25,
+              "id": "e454100e03453c7b8af0-7503079c3c88690cc306",
+              "file": "e2e/pom-e2e-login.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "POM Positive Scenario with logout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 6505,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-17T16:11:15.495Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e454100e03453c7b8af0-1c95a7ba9d6f88f2c763",
+              "file": "e2e/pom-e2e-login.spec.ts",
+              "line": 23,
               "column": 7
             }
           ]

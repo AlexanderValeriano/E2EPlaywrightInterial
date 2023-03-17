@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 import { LoginPage } from "../../page-objects/LoginPage";
 import { HomePage } from "../../page-objects/HomePage";
 
-test.describe.parallel("Login Logout flow", () => {
+test.describe.parallel.only("Login Logout flow", () => {
   let loginPage: LoginPage;
   let homePage: HomePage;
   //test before hook
@@ -16,6 +16,7 @@ test.describe.parallel("Login Logout flow", () => {
   test("POM Negative Scenario for login", async ({ page }) => {
     await homePage.clickOnSignIn();
     await loginPage.login("invalid username", "invalid password");
+    await loginPage.wait(3000);
     await loginPage.assertErrorMessage();
   });
   //Positive Scenario + Logout
