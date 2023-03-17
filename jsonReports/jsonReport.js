@@ -81,20 +81,20 @@
   },
   "suites": [
     {
-      "title": "e2e/e2e-search.spec.ts",
-      "file": "e2e/e2e-search.spec.ts",
+      "title": "e2e/pom-e2e-payment.spec.ts",
+      "file": "e2e/pom-e2e-payment.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Search Results",
-          "file": "e2e/e2e-search.spec.ts",
-          "line": 4,
+          "title": "New Payment",
+          "file": "e2e/pom-e2e-payment.spec.ts",
+          "line": 5,
           "column": 15,
           "specs": [
             {
-              "title": "Should Find Search Results",
+              "title": "Should send new payment",
               "ok": true,
               "tags": [],
               "tests": [
@@ -107,100 +107,21 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 2915,
+                      "duration": 4873,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-15T13:10:24.331Z",
+                      "startTime": "2023-03-17T14:24:27.870Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "94505ed210397eb389a3-c900c731c2dc44b51c95",
-              "file": "e2e/e2e-search.spec.ts",
-              "line": 5,
-              "column": 7
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "e2e/e2e-submit-resetForm.spec.ts",
-      "file": "e2e/e2e-submit-resetForm.spec.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Feedback Form",
-          "file": "e2e/e2e-submit-resetForm.spec.ts",
-          "line": 5,
-          "column": 15,
-          "specs": [
-            {
-              "title": "Reset feedback form",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 3197,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-03-15T13:10:24.335Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "44df47f5ee3b4b3591ee-cdd190e8a5c2618b5859",
-              "file": "e2e/e2e-submit-resetForm.spec.ts",
-              "line": 16,
-              "column": 7
-            },
-            {
-              "title": "Submit feedback form",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 2194,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-03-15T13:10:27.805Z",
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "44df47f5ee3b4b3591ee-0941dfaa8bbf9e46c3c1",
-              "file": "e2e/e2e-submit-resetForm.spec.ts",
-              "line": 27,
+              "id": "ee0efe0c0f5355512994-bece91585ec84d234303",
+              "file": "e2e/pom-e2e-payment.spec.ts",
+              "line": 20,
               "column": 7
             }
           ]

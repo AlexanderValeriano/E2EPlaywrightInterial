@@ -13,6 +13,7 @@ test("Negative Scenario for login", async ({ page }) => {
   const errorMessage = await page.locator(".alert.alert-error");
   await expect(errorMessage).toBeVisible({ visible: true });
 });
+
 //Positive Scenario + Logout
 test("Positive Scenario with logout", async ({ page }) => {
   await page.type("#user_login", "username");

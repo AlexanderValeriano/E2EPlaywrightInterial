@@ -1,17 +1,22 @@
 import { expect, test } from "@playwright/test";
+import { HomePage } from "../../page-objects/HomePage";
+import { LoginPage } from "../../page-objects/LoginPage";
 
 test.describe("Filter transactions", async () => {
+  let homePage: HomePage;
+  let loginPage: LoginPage;
   test.beforeEach(async ({ page }) => {
-    await page.goto("http://zero.webappsecurity.com/index.html");
-    await page.click("#signin_button");
-    await page.type("#user_login", "username");
-    await page.type("#user_password", "password");
-    await page.click("text=Sign In");
+    homePage = new HomePage(page);
+    loginPage = new LoginPage(page);
+
+    await homePage.visit();
+    await homePage.clickOnSignIn();
+    await loginPage.login("username", "password");
+
     await page.goto("http://zero.webappsecurity.com/bank/transfer-funds.html");
     const accountSummaryTab = await page.locator("#account_summary_tab");
     await expect(accountSummaryTab).toBeVisible({ visible: true });
   });
-
   test("Verify the results for each account", async ({ page }) => {
     await page.click("#account_activity_tab");
     await page.selectOption("#aa_accountId", "2");
