@@ -90,7 +90,7 @@
         {
           "title": "New Payment",
           "file": "e2e/pom-e2e-payment.spec.ts",
-          "line": 5,
+          "line": 7,
           "column": 15,
           "specs": [
             {
@@ -107,12 +107,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 4873,
+                      "duration": 4625,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-17T14:24:27.870Z",
+                      "startTime": "2023-03-17T15:35:38.167Z",
                       "attachments": []
                     }
                   ],
@@ -121,7 +121,7 @@
               ],
               "id": "ee0efe0c0f5355512994-bece91585ec84d234303",
               "file": "e2e/pom-e2e-payment.spec.ts",
-              "line": 20,
+              "line": 25,
               "column": 7
             }
           ]
