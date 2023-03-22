@@ -8,6 +8,7 @@ export class LoginPage extends AbstractPage {
   readonly passwordInput: Locator;
   readonly submitButton: Locator;
   readonly errorMessage: Locator;
+  readonly loginForm: Locator;
 
   // Init selectors using constructor
   constructor(page: Page) {
@@ -17,6 +18,7 @@ export class LoginPage extends AbstractPage {
     this.passwordInput = page.locator("#user_password");
     this.submitButton = page.locator("input[value='Sign in']");
     this.errorMessage = page.locator(".alert.alert-error");
+    this.loginForm = page.locator("#login_form");
   }
   //Define login page methods
 
@@ -28,6 +30,14 @@ export class LoginPage extends AbstractPage {
   async assertErrorMessage() {
     await expect(this.errorMessage).toContainText(
       "Login and/or password are wrong."
+    );
+  }
+  async snapshotLoginForm() {
+    expect(await this.loginForm.screenshot()).toMatchSnapshot("login-form.png");
+  }
+  async snapshotErrorMessage() {
+    expect(await this.errorMessage.screenshot()).toMatchSnapshot(
+      "login-error.png"
     );
   }
 }

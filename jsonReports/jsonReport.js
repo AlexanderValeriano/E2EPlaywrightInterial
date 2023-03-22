@@ -81,20 +81,20 @@
   },
   "suites": [
     {
-      "title": "visual.spec.ts",
-      "file": "visual.spec.ts",
+      "title": "login-visual.spec.ts",
+      "file": "login-visual.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Visual Regression Testing Example",
-          "file": "visual.spec.ts",
-          "line": 3,
+          "title": "Login Page Visual Tests",
+          "file": "login-visual.spec.ts",
+          "line": 5,
           "column": 15,
           "specs": [
             {
-              "title": "Full Page Snapshot",
+              "title": "Login Form",
               "ok": true,
               "tags": [],
               "tests": [
@@ -107,25 +107,25 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 1092,
+                      "duration": 2621,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-22T11:05:18.951Z",
+                      "startTime": "2023-03-22T11:49:11.100Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "8324bb52c49185e48ff4-ca032b30f3ffd61e2f59",
-              "file": "visual.spec.ts",
-              "line": 4,
+              "id": "d579c0da0f3cc52235b7-4514081ed2a04b3b7bce",
+              "file": "login-visual.spec.ts",
+              "line": 16,
               "column": 7
             },
             {
-              "title": "Single Element Snapshot",
+              "title": "Login Error Message",
               "ok": false,
               "tags": [],
               "tests": [
@@ -138,50 +138,50 @@
                     {
                       "workerIndex": 0,
                       "status": "failed",
-                      "duration": 927,
+                      "duration": 3365,
                       "error": {
-                        "message": "A snapshot doesn't exist at /home/alexander/E2EPlaywrightInterial/tests/visual/visual.spec.ts-snapshots/page-title-webkit-linux.png, writing actual.",
-                        "stack": "Error: A snapshot doesn't exist at /home/alexander/E2EPlaywrightInterial/tests/visual/visual.spec.ts-snapshots/page-title-webkit-linux.png, writing actual.\n    at /home/alexander/E2EPlaywrightInterial/tests/visual/visual.spec.ts:12:45"
+                        "message": "A snapshot doesn't exist at /home/alexander/E2EPlaywrightInterial/tests/visual/login-visual.spec.ts-snapshots/login-error-webkit-linux.png, writing actual.",
+                        "stack": "Error: A snapshot doesn't exist at /home/alexander/E2EPlaywrightInterial/tests/visual/login-visual.spec.ts-snapshots/login-error-webkit-linux.png, writing actual.\n    at LoginPage.snapshotErrorMessage (/home/alexander/E2EPlaywrightInterial/page-objects/LoginPage.ts:39:50)\n    at /home/alexander/E2EPlaywrightInterial/tests/visual/login-visual.spec.ts:22:5"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "/home/alexander/E2EPlaywrightInterial/tests/visual/visual.spec.ts",
-                            "column": 45,
-                            "line": 12
+                            "file": "/home/alexander/E2EPlaywrightInterial/page-objects/LoginPage.ts",
+                            "column": 50,
+                            "line": 39
                           },
-                          "message": "Error: A snapshot doesn't exist at /home/alexander/E2EPlaywrightInterial/tests/visual/visual.spec.ts-snapshots/page-title-webkit-linux.png, writing actual.\n\n\u001b[90m   at \u001b[39mvisual.spec.ts:12\n\n\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://www.example.com\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mconst\u001b[39m pageElement \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39m$(\u001b[32m\"h1\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 |\u001b[39m     expect(\u001b[36mawait\u001b[39m pageElement\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[32m\"page-title.png\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m\u001b[0m\n\n\u001b[2m    at /home/alexander/E2EPlaywrightInterial/tests/visual/visual.spec.ts:12:45\u001b[22m"
+                          "message": "Error: A snapshot doesn't exist at /home/alexander/E2EPlaywrightInterial/tests/visual/login-visual.spec.ts-snapshots/login-error-webkit-linux.png, writing actual.\n\n\u001b[90m   at \u001b[39m../../page-objects/LoginPage.ts:39\n\n\u001b[0m \u001b[90m 37 |\u001b[39m   }\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m   \u001b[36masync\u001b[39m snapshotErrorMessage() {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 39 |\u001b[39m     expect(\u001b[36mawait\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrorMessage\u001b[33m.\u001b[39mscreenshot())\u001b[33m.\u001b[39mtoMatchSnapshot(\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m       \u001b[32m\"login-error.png\"\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 41 |\u001b[39m     )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m   }\u001b[0m\n\n\u001b[2m    at LoginPage.snapshotErrorMessage (/home/alexander/E2EPlaywrightInterial/page-objects/LoginPage.ts:39:50)\u001b[22m\n\u001b[2m    at /home/alexander/E2EPlaywrightInterial/tests/visual/login-visual.spec.ts:22:5\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-03-22T11:05:20.367Z",
+                      "startTime": "2023-03-22T11:49:14.133Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "/home/alexander/E2EPlaywrightInterial/test-results/visual-Visual-Regression-Testing-Example-Single-Element-Snapshot-webkit/video.webm"
+                          "path": "/home/alexander/E2EPlaywrightInterial/test-results/login-visual-Login-Page-Visual-Tests-Login-Error-Message-webkit/video.webm"
                         },
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "/home/alexander/E2EPlaywrightInterial/test-results/visual-Visual-Regression-Testing-Example-Single-Element-Snapshot-webkit/test-failed-1.png"
+                          "path": "/home/alexander/E2EPlaywrightInterial/test-results/login-visual-Login-Page-Visual-Tests-Login-Error-Message-webkit/test-failed-1.png"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/home/alexander/E2EPlaywrightInterial/tests/visual/visual.spec.ts",
-                        "column": 45,
-                        "line": 12
+                        "file": "/home/alexander/E2EPlaywrightInterial/page-objects/LoginPage.ts",
+                        "column": 50,
+                        "line": 39
                       }
                     }
                   ],
                   "status": "unexpected"
                 }
               ],
-              "id": "8324bb52c49185e48ff4-ad0f97b73f4a7a32d0e7",
-              "file": "visual.spec.ts",
-              "line": 9,
+              "id": "d579c0da0f3cc52235b7-98a075c223df9ff8719d",
+              "file": "login-visual.spec.ts",
+              "line": 20,
               "column": 7
             }
           ]
